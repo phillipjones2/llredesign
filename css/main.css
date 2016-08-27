@@ -98,7 +98,52 @@ a {
   width: 3rem;
 }
 /*Finer Points*/
+
+#good-points-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
+#good-points-container div h3 {
+  font-weight: bold;
+}
+
+
+.good-point-box {
+  width: 33%;
+  border:2px solid black ;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .finer-point-icon {
   width: 50px;
   height: 50px;
+}
+
+/*form*/
+#form-container {
+  margin: 20px 0;
+  background-color: #BBDBD1;
+
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form {
+  width: 50%;
+}
+
+#form-container h2 {
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+#submit-btn {
+  font-family: "Prompt", sans-serif;
 }
