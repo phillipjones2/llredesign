@@ -1,8 +1,8 @@
 var expandNavButton = document.getElementById('expand-icon')
 var navLinks = document.getElementById('nav-links')
-var expandButtons = document.getElementsByClassName('expand-button')
+var expandButton = document.getElementsByClassName('expand-button')[0];
 
-expandNavButton.addEventListener("click", function (e) {
+expandButton.addEventListener("click", function (e) {
   if (navLinks.classList.contains('hidden')) {
     navLinks.classList.remove('hidden')
   } else {

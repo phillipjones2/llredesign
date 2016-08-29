@@ -33,7 +33,7 @@ nav {
 }
 
 #nav-logo {
-  font-size: 30px;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 .hidden {
@@ -70,13 +70,16 @@ header .dark-bg {
 #header-content {
   padding: 0 10%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
 }
 
 #header-content h1 {
   font-family: "Prompt", sans-serif;
   text-transform: uppercase;
   color: white;
-  padding-top: 20vh;
   font-weight: 300;
 
 }
@@ -89,6 +92,8 @@ header .dark-bg {
   color: white;
   margin-top: 10px;
   font-weight:100;
+  font-size: 2.2rem;
+  text-shadow: 0 0 5px black;
 }
 
 #contact-link-container {
@@ -136,7 +141,7 @@ a {
 
 #down {
   width: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   max-height: 55px;
 }
 /*Finer Points*/
@@ -249,6 +254,8 @@ input:focus::-webkit-input-placeholder {
   outline: none;
   width: 90%;
   height: 45px;
+  color: #22223b;
+  box-shadow: 0 4px 0 #4ce6b2;
 
 }
 
@@ -295,7 +302,7 @@ blockquote p {
 
 /*About us*/
 #about-container {
-  padding: 0 10p75px 10px;
+  padding: 0 10px 75px 10px;
 }
 
 #about-container h1 {
