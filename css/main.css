@@ -55,6 +55,8 @@ header .dark-bg {
   width: 100%;
 }
 
+
+
 #nav-links {
   padding: 15px 0;
 }
@@ -67,8 +69,7 @@ header .dark-bg {
 
 #header-content {
   padding: 0 10%;
-
-
+  text-align: center;
 }
 
 #header-content h1 {
@@ -76,8 +77,18 @@ header .dark-bg {
   text-transform: uppercase;
   color: white;
   padding-top: 20vh;
-  font-weight: 700;
+  font-weight: 300;
 
+}
+
+#header-h1 span {
+  font-weight: 700;
+}
+
+#header-content p {
+  color: white;
+  margin-top: 10px;
+  font-weight:100;
 }
 
 #contact-link-container {
@@ -86,6 +97,8 @@ header .dark-bg {
 }
 
 #call-us {
+  display: flex;
+  align-items: center;
   color:white;
 }
 
@@ -176,7 +189,7 @@ form {
   justify-content: center;
 }
 
-.form {
+input {
   width: 50%;
   padding: 1.25rem;
   border-radius: .8rem;
@@ -184,20 +197,21 @@ form {
   /*color:#f0ebd8;*/
   font-weight: 400;
   letter-spacing: 1.5px;
+  border: none;
 }
 
-.form:focus{
+input:focus{
   /*background: #9595bf;*/
   outline: none;
 }
 
-.form::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   /*color;*/
   transition: 0.5s all;
   font-weight: 300;
 }
 
-.form:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder {
   opacity: 0;
 }
 
@@ -281,7 +295,7 @@ blockquote p {
 
 /*About us*/
 #about-container {
-  padding: 75px 10px;
+  padding: 0 10p75px 10px;
 }
 
 #about-container h1 {
