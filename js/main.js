@@ -3,9 +3,5 @@ var navLinks = document.getElementById('nav-links')
 var expandButton = document.getElementsByClassName('expand-button')[0];
 
 expandButton.addEventListener("click", function (e) {
-  if (navLinks.classList.contains('hidden')) {
-    navLinks.classList.remove('hidden')
-  } else {
-    navLinks.classList.add('hidden')
-  }
+  navLinks.classList.toggle('toggle-top')
 })
